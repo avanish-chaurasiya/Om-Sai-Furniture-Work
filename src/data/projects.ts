@@ -1,3 +1,4 @@
+
 import { ProjectType } from "@/components/Projects/ProjectGrid.tsx";
 
 // Sample project data
@@ -27,7 +28,6 @@ const projectsData: ProjectType[] = [
       "/wadala-3bhk/mandir.jpg"
     ],
     description: "This project at Ajmera I-Land showcases our complete turnkey capabilities in creating a personalized home for a multi-generational family. Our team managed the entire scope for this 3 BHK residence—comprising a serene master bedroom, a tranquil parent's bedroom, and a vibrant children's room—providing a single point of contact for a seamless transformation. We handled all foundational civil changes and interior finishing, including a sophisticated color palette and a multi-layered lighting scheme that creates warmth and highlights key features, such as the textured living room wall. From the elegant entrance foyer to the custom-crafted mandir, every detail was considered. All furniture, including the dual-study unit in the children's room and the integrated cabinetry throughout, was custom-designed and built by our craftsmen. The result is a cohesive, beautifully realized home that seamlessly blends practicality with personal style, reflecting the unique needs of the entire family.",
-    intro:"Complete 3 BHK Home Transformation at Ajmera I-Land, Wadala",
     details: {
       location: "Wadala, Mumbai",
       year: 2021,

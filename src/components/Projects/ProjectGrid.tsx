@@ -12,7 +12,7 @@ export interface ProjectType {
   gallery: string[];
   description: string;
   details: {
-    client: string;
+    //client: string;
     location: string;
     year: number;
     size: string;

@@ -67,7 +67,7 @@ const ProjectDetail = () => {
         {/* Project header */}
         <div className="mb-12">
           <h1 className="text-4xl md:text-5xl font-serif mb-4">{project.title}</h1>
-          <p className="text-lg text-muted-foreground max-w-3xl">{project.intro}</p>
+          {/* <p className="text-lg text-muted-foreground max-w-3xl">{project.intro}</p> */}
         </div>
 
         {/* Image gallery */}
@@ -130,7 +130,7 @@ const ProjectDetail = () => {
             <dl className="space-y-3" style={{ color: 'rgba(23, 23, 23, 1)' }}>
               <div>
                 <dt className="text-sm" style={{ color: 'rgba(23, 23, 23, 1)' }}></dt>
-                <dd className="font-medium" style={{ color: 'rgba(23, 23, 23, 1)' }}>{project.details.client}</dd>
+                {/* <dd className="font-medium" style={{ color: 'rgba(23, 23, 23, 1)' }}>{project.details.client}</dd> */}
               </div>
               <div>
                 <dt className="text-sm" style={{ color: 'rgba(23, 23, 23, 1)' }}>Location</dt>

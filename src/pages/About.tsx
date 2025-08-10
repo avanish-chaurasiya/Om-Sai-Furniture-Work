@@ -118,7 +118,7 @@ const PhilosophyCard = ({
       style={{ backgroundColor: 'rgba(23, 23, 23, 1)' }}
     >
       <h3 className="text-xl font-medium mb-4 text-white">{title}</h3>
-      <p className="text-muted-foreground text-white/80">{description}</p>
+      <p className="text-muted-foreground">{description}</p>
     </div>
   );
 };
