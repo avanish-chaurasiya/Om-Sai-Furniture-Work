@@ -1,6 +1,7 @@
 
-import { Toaster } from "@/components/ui/toaster";
-import { Toaster as Sonner } from "@/components/ui/sonner";
+// CORRECT ✅
+import { Toaster } from "@/components/ui/toaster.tsx"; 
+import { Toaster as Sonner } from "@/components/ui/sonner"; 
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -16,7 +17,7 @@ const queryClient = new QueryClient();
 
 const App = () => (
   <QueryClientProvider client={queryClient}>
-    <ThemeProvider defaultTheme="system" storageKey="interior-theme">
+    <ThemeProvider defaultTheme="dark" storageKey="interior-theme">
       <TooltipProvider>
         <Toaster />
         <Sonner />

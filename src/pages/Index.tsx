@@ -18,7 +18,7 @@ const Index = () => {
       <section className="relative h-screen">
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://images.unsplash.com/photo-1600210491369-e753d80a41f3?w=1920&auto=format&fit=crop&q=80&ixlib=rb-4.0.3" 
+            src="pic\header.png"
             alt="Interior design showcase" 
             className="w-full h-full object-cover"
           />
@@ -51,7 +51,7 @@ const Index = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <img 
-                src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3" 
+                src="pic\about.png" 
                 alt="Interior designer at work"
                 className="rounded-lg w-full h-auto object-cover"
               />
