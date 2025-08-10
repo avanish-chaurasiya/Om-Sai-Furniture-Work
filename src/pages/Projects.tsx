@@ -1,9 +1,9 @@
 
 import React, { useState, useEffect } from 'react';
-import PageLayout from '@/components/Layout/PageLayout';
-import PageHeader from '@/components/UI/PageHeader';
-import ProjectGrid from '@/components/Projects/ProjectGrid';
-import ProjectFilter from '@/components/Projects/ProjectFilter';
+import PageLayout from '@/components/Layout/PageLayout.tsx';
+import PageHeader from '@/components/UI/PageHeader.tsx';
+import ProjectGrid from '@/components/Projects/ProjectGrid.tsx';
+import ProjectFilter from '@/components/Projects/ProjectFilter.tsx';
 import projectsData from '@/data/projects';
 
 const Projects = () => {

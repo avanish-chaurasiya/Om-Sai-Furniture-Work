@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { ArrowLeft, ChevronLeft, ChevronRight } from 'lucide-react';
-import PageLayout from '@/components/Layout/PageLayout';
+import PageLayout from '@/components/Layout/PageLayout.tsx';
 import projectsData from '@/data/projects';
-import { Button } from '@/components/ui/button';
-import { ProjectType } from '@/components/Projects/ProjectGrid';
+import { Button } from '@/components/UI/button.tsx';
+import { ProjectType } from '@/components/Projects/ProjectGrid.tsx';
 
 const ProjectDetail = () => {
   const { id } = useParams<{ id: string }>();

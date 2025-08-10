@@ -27,11 +27,11 @@ const Footer = () => {
             <p className="text-muted-foreground max-w-xs">
             Quality work is ultimately cheaper than poor work.
             </p>
-            <div className="flex space-x-4">
+            {/* <div className="flex space-x-4">
               <SocialLink href="https://instagram.com" icon={<Instagram size={18} />} label="Instagram" />
               <SocialLink href="https://facebook.com" icon={<Facebook size={18} />} label="Facebook" />
               <SocialLink href="https://linkedin.com" icon={<Linkedin size={18} />} label="LinkedIn" />
-            </div>
+            </div> */}
           </div>
 
           {/* Links column */}
@@ -63,8 +63,8 @@ const Footer = () => {
             <div className="space-y-3 text-muted-foreground">
               <div className="flex items-center space-x-3">
                 <Mail size={16} className="flex-shrink-0" />
-                <a href="mailto:contact@osfw.in" className="hover:text-foreground transition-colors">
-                contact@osfw.in
+                <a href="mailto:contact.osfw.in@gmail.com" className="hover:text-foreground transition-colors">
+                contact.osfw.in@gmail.com
                 </a>
               </div>
               <div className="flex items-center space-x-3">
@@ -86,8 +86,7 @@ const Footer = () => {
         <div className="pt-8 border-t border-slate-200 dark:border-slate-800 flex flex-col md:flex-row justify-between items-center text-sm text-muted-foreground">
           <p>© {currentYear} Om Sai Furniture Works. All rights reserved.</p>
           <div className="flex space-x-6 mt-4 md:mt-0">
-            <a href="/privacy" className="hover:text-foreground transition-colors">Privacy Policy</a>
-            <a href="/terms" className="hover:text-foreground transition-colors">Terms of Service</a>
+            <a href="src\pages\privacy-policy.html" className="hover:text-foreground transition-colors">Privacy Policy</a>
           </div>
         </div>
       </div>

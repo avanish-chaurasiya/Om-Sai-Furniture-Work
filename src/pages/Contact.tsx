@@ -1,8 +1,8 @@
 import React, { useState } from 'react'; // <<< UPDATED (add useState)
 import { Mail, Phone, MapPin, Clock, Send } from 'lucide-react';
-import PageLayout from '@/components/Layout/PageLayout';
-import PageHeader from '@/components/UI/PageHeader';
-import { Button } from '@/components/ui/button';
+import PageLayout from '@/components/Layout/PageLayout.tsx';
+import PageHeader from '@/components/UI/PageHeader.tsx';
+import { Button } from '@/components/UI/button.tsx';
 import { useToast } from '@/hooks/use-toast';
 
 const Contact = () => {
@@ -139,7 +139,7 @@ const Contact = () => {
                 <ContactItem 
                   icon={<Mail />}
                   title="Email"
-                  content={<a href="mailto:contact@osfw.in" className="text-muted-foreground hover:text-foreground transition-colors">contact@osfw.in</a>}
+                  content={<a href="contact.osfw.in@gmail.com" className="text-muted-foreground hover:text-foreground transition-colors">contact.osfw.in@gmail.com</a>}
                 />
                 <ContactItem 
                   icon={<Phone />}
@@ -165,16 +165,20 @@ const Contact = () => {
                       <p>Monday - Saturday: 9:00 AM - 10:00 PM</p>
                       <p>Sunday: 8:00 AM - 11:00 PM</p>
                     </div>
+                    
                   }
                 />
+                <div>                     
+                   <p><b>Note: </b> Please feel free to call us directly at your earliest convenience to discuss your project.</p>
+                </div>
               </div>
 
               {/* Map */}
-              <div className="mt-8 rounded-lg overflow-hidden border border-input h-64 bg-muted flex items-center justify-center">
+              {/* <div className="mt-8 rounded-lg overflow-hidden border border-input h-64 bg-muted flex items-center justify-center">
                 <p className="text-muted-foreground text-center p-4">
                   Map visualization would be embedded here in a production environment
                 </p>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

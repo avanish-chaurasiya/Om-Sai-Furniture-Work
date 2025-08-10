@@ -1,8 +1,8 @@
 
 import React from 'react';
-import PageLayout from '@/components/Layout/PageLayout';
-import PageHeader from '@/components/UI/PageHeader';
-import SectionHeading from '@/components/UI/SectionHeading';
+import PageLayout from '@/components/Layout/PageLayout.tsx';
+import PageHeader from '@/components/UI/PageHeader.tsx';
+import SectionHeading from '@/components/UI/SectionHeading.tsx';
 
 const About = () => {
   return (

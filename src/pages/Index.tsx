@@ -2,11 +2,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
-import PageLayout from '@/components/Layout/PageLayout';
-import SectionHeading from '@/components/UI/SectionHeading';
-import ProjectCard from '@/components/Projects/ProjectCard';
+import PageLayout from '@/components/Layout/PageLayout.tsx';
+import SectionHeading from '@/components/UI/SectionHeading.tsx';
+import ProjectCard from '@/components/Projects/ProjectCard.tsx';
 import projectsData from '@/data/projects';
-import { Button } from '@/components/ui/button';
+import { Button } from '@/components/UI/button.tsx';
 
 const Index = () => {
   // Get featured projects for homepage
@@ -143,24 +143,24 @@ const Index = () => {
         <div className="container mx-auto px-6 md:px-12">
           <div className="mb-10 space-y-2 text-center">
             <h2 className="text-3xl md:text-4xl font-serif" style={{ color: 'rgba(23, 23, 23, 1)' }}>Client Testimonials</h2>
-            <p className="text-lg max-w-2xl mx-auto" style={{ color: 'rgba(23, 23, 23, 1)' }}>What our clients say about working with our design team.</p>
+            <p className="text-lg max-w-2xl mx-auto" style={{ color: 'rgba(23, 23, 23, 1)' }}>What our clients say about working with our team.</p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
             <TestimonialCard 
               quote="A pleasure to work with. They handled everything from structural changes to custom furniture with incredible professionalism, bringing our vision to life seamlessly."
-              author="Sarah Johnson"
+              author="Mr.Subodh Raiborde"
               role="Homeowner"
             />
             <TestimonialCard 
               quote="The best partner a designer could ask for. Their execution of my plans was flawless, and their collaborative spirit made the entire process smooth."
-              author="Michael Chen"
-              role="CEO, TechStart"
+              author="Mr. Soham"
+              role="Architect"
             />
             <TestimonialCard 
               quote="They built our new office with incredible efficiency. The quality of their work is outstanding, delivering a high-end space on time and budget."
-              author="Emily Rodriguez"
-              role="Residential Client"
+              author="Mr. Prashant Kadam"
+              role="Commercial Client"
             />
           </div>
         </div>

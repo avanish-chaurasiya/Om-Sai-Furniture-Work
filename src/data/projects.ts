@@ -1,4 +1,4 @@
-import { ProjectType } from "@/components/Projects/ProjectGrid";
+import { ProjectType } from "@/components/Projects/ProjectGrid.tsx";
 
 // Sample project data
 const projectsData: ProjectType[] = [
@@ -90,9 +90,8 @@ const projectsData: ProjectType[] = [
       "/2-BHK/mandir.jpg",
       "/2-BHK/wall-photo.jpg"
     ],
-    description: "A cozy yet spacious Lodha New Cuffe Parade retreat that celebrates its natural surroundings. Heavy timber beams, natural stone, and a warm color palette create an inviting sanctuary that frames stunning mountain views.",
+    description: "This project showcases our ability to deliver a complete, move-in-ready home. For this 2 BHK flat, our team managed all aspects of the interior work, from space planning to the final coat of paint. Every piece of furniture was custom-designed and built by our craftsmen to perfectly fit the space and the client's lifestyle, creating a beautiful and cohesive living environment.",
     details: {
-      client: "Williams Family",
       location: "Wadala , Mumbai",
       year: 2023,
       size: "700 sq ft",
@@ -100,8 +99,8 @@ const projectsData: ProjectType[] = [
     }
   },
   {
-    id: "boutique-cafe",
-    title: "Artisan Café",
+    id: "commercial-office",
+    title: "Commercial Office",
     category: "Commercial",
     featured: true,
     imageUrl: "/office-1/Reception-area.png",
@@ -115,18 +114,18 @@ const projectsData: ProjectType[] = [
       "/office-1/work-space-3.png",
       "/office-1/multi-work-space.png"
     ],
-    description: "This café design balances functionality with aesthetic appeal, creating a welcoming atmosphere for customers. Custom lighting fixtures, handcrafted tiles, and carefully selected furnishings create a distinctive brand experience.",
+    description: "This 1200 sqft commercial project highlights our expertise in delivering complete turnkey solutions for modern workspaces. Our team managed every aspect of the build-out, from initial civil work to the final finishes. The scope included all custom carpentry for workstations and storage, a professional painting scheme, and a strategic lighting plan designed for productivity. By handling all elements in-house, we ensured a seamless, efficient process and delivered a high-quality, functional office space ready for business.",
     details: {
-      client: "Artisan Coffee Co.",
-      location: "Portland, OR",
-      year: 2021,
+      
+      location: "Chembur, Mumbai",
+      year: 2022,
       size: "1,200 sq ft",
-      services: ["Space Planning", "Interior Design", "Lighting Design", "Furniture Selection"]
+      services: ["Carpentry", "Painting", "Civil Work", "All Interior Work"]
     }
   },
   {
     id: "modern-office",
-    title: "Creative Agency Office",
+    title: "Agency Office- Parel",
     category: "Commercial",
     featured: false,
     imageUrl: "/office-2/Meeting_area.png",
@@ -139,13 +138,12 @@ const projectsData: ProjectType[] = [
       "/office-2/work_space_2.png",
       "/office-2/work_space3.png"
     ],
-    description: "This office design balances practical work requirements with inspiring creative spaces. A mix of private areas and collaborative zones encourages both focused work and team interaction.",
+    description: "For this 900 sqft creative agency office, we provided a complete start-to-finish solution. Our team handled everything from the basic construction to the final touches. We built all the custom desks and storage, applied a modern color scheme, and installed smart lighting to create a vibrant and productive atmosphere. By managing the entire job ourselves, the project was finished smoothly, resulting in a stylish and practical workspace perfect for a busy agency.",
     details: {
-      client: "Pixel Creative Agency",
-      location: "Austin, TX",
+      location: "Parel, Mumbai",
       year: 2021,
-      size: "5,800 sq ft",
-      services: ["Space Planning", "Interior Design", "Furniture Selection", "Branding Integration"]
+      size: "900 sq ft",
+      services: ["Carpentry", "Painting", "Civil Work", "All Interior Work"]
     }
   },
   {
@@ -166,13 +164,12 @@ const projectsData: ProjectType[] = [
       "/Digras-Villa/Living-room3.jpg",
       "/Digras-Villa/kitchen1.png"
     ],
-    description: "This Dhannu Villa blends traditional architectural elements with contemporary furnishings. The design emphasizes indoor-outdoor living with flowing spaces that open to lush gardens and terraces.",
+    description: "For the large 3600 sqft Dhanu Villa in Digras, Akola, our team provided a complete start-to-finish service for both the inside and outside of the house. Our work included all the basic construction, detailed woodwork, and all the plumbing and electrical wiring. We handled all the interior jobs, from the floors to the ceilings, and painted the entire house beautifully. By managing every part of this big project, we made sure everything went smoothly and delivered a wonderful home built with top quality.",
     details: {
-      client: "Garcia Family",
-      location: "Santa Barbara, CA",
+      location: "Digras, Akola",
       year: 2023,
-      size: "600 sq ft",
-      services: ["Carpentry", "Painting", "Civil Work", "All Interior Work"]
+      size: "3,600 sq ft",
+      services: ["Carpentry", "Painting", "Civil Work", "All Interior Work", "Electrical Work", "Plumbing Work"]
     }
   }
 ];
