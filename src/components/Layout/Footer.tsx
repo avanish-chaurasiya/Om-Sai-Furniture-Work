@@ -86,7 +86,7 @@ const Footer = () => {
         <div className="pt-8 border-t border-slate-200 dark:border-slate-800 flex flex-col md:flex-row justify-between items-center text-sm text-muted-foreground">
           <p>© {currentYear} Om Sai Furniture Works. All rights reserved.</p>
           <div className="flex space-x-6 mt-4 md:mt-0">
-            <a href="src\pages\privacy-policy.html" className="hover:text-foreground transition-colors">Privacy Policy</a>
+            <a href="/privacy-policy.html" className="hover:text-foreground transition-colors">Privacy Policy</a>
           </div>
         </div>
       </div>
