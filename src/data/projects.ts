@@ -124,8 +124,8 @@ const projectsData: ProjectType[] = [
     }
   },
   {
-    id: "modern-office",
-    title: "Agency Office- Parel",
+    id: "dance-studio",
+    title: "Rooh Artz Studio",
     category: "Commercial",
     featured: false,
     imageUrl: "/office-2/Meeting_area.png",
@@ -138,12 +138,13 @@ const projectsData: ProjectType[] = [
       "/office-2/work_space_2.png",
       "/office-2/work_space3.png"
     ],
-    description: "For this 900 sqft creative agency office, we provided a complete start-to-finish solution. Our team handled everything from the basic construction to the final touches. We built all the custom desks and storage, applied a modern color scheme, and installed smart lighting to create a vibrant and productive atmosphere. By managing the entire job ourselves, the project was finished smoothly, resulting in a stylish and practical workspace perfect for a busy agency.",
+    description: "Rooh Artz Studio is a thoughtfully designed modern dance studio built to enhance performance and creativity. We developed a fully noise-controlled acoustic space to ensure excellent sound clarity and zero external disturbance. The studio is equipped with a high-quality sound system and professional lighting to create the perfect ambiance for practice and performances. With its premium interior design and comfortable environment, it provides an ideal space for dancers to train, rehearse, and express their art freely.
+",
     details: {
-      location: "Parel, Mumbai",
-      year: 2021,
-      size: "900 sq ft",
-      services: ["Carpentry", "Painting", "Civil Work", "All Interior Work"]
+      location: "Wadala, Mumbai",
+      year: 2026,
+      size: "400 sq ft",
+      services: ["Carpentry", "Painting", "Civil Work", "All Interior Work","Soundproofing & Acoustic Solutions"]
     }
   },
   {
