@@ -138,7 +138,7 @@ const projectsData: ProjectType[] = [
       "/office-2/dance-studio6.jpg",
       "/office-2/dance-studio7.jpg",
       "/office-2/dance-studio8.jpg",
-      "/office-2/dance-studio9.jpg"
+      "/office-2/dance-studio9.jpeg"
     ],
     description: "Rooh Artz Studio is a thoughtfully designed modern dance studio built to enhance performance and creativity. We developed a fully noise-controlled acoustic space to ensure excellent sound clarity and zero external disturbance. The studio is equipped with a high-quality sound system and professional lighting to create the perfect ambiance for practice and performances. With its premium interior design and comfortable environment, it provides an ideal space for dancers to train, rehearse, and express their art freely.",
     details: {
