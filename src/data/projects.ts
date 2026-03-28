@@ -134,7 +134,7 @@ const projectsData: ProjectType[] = [
       "/office-2/dance-studio2.jpg",
       "/office-2/dance-studio3.jpg",
       "/office-2/dance-studio4.jpg",
-      "/office-2/dance-studio5.jpgg",
+      "/office-2/dance-studio5.jpg",
       "/office-2/dance-studio6.jpg",
       "/office-2/dance-studio7.jpg",
       "/office-2/dance-studio8.jpg",
