@@ -128,18 +128,19 @@ const projectsData: ProjectType[] = [
     title: "Rooh Artz Studio",
     category: "Commercial",
     featured: false,
-    imageUrl: "/office-2/Meeting_area.png",
+    imageUrl: "/office-2/dance-studio2.jpg",
     gallery: [
-      "/office-2/Meeting_area.png",
-      "/office-2/Manager_office.png",
-      "/office-2/Multi_work_space1.png",
-      "/office-2/Multi_work_space2.png",
-      "/office-2/work_space_1.png",
-      "/office-2/work_space_2.png",
-      "/office-2/work_space3.png"
+     "/office-2/dance-studio1.jpg",
+      "/office-2/dance-studio2.jpg",
+      "/office-2/dance-studio3.jpg",
+      "/office-2/dance-studio4.jpg",
+      "/office-2/dance-studio5.jpgg",
+      "/office-2/dance-studio6.jpg",
+      "/office-2/dance-studio7.jpg",
+      "/office-2/dance-studio8.jpg",
+      "/office-2/dance-studio9.jpg"
     ],
     description: "Rooh Artz Studio is a thoughtfully designed modern dance studio built to enhance performance and creativity. We developed a fully noise-controlled acoustic space to ensure excellent sound clarity and zero external disturbance. The studio is equipped with a high-quality sound system and professional lighting to create the perfect ambiance for practice and performances. With its premium interior design and comfortable environment, it provides an ideal space for dancers to train, rehearse, and express their art freely.",
-",
     details: {
       location: "Wadala, Mumbai",
       year: 2026,
